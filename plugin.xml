@@ -17,8 +17,8 @@
             </feature>
         </config-file>
 
-        <source-file src="src/Global.java" target-dir="src/com/gttown/plugins" />
-        <source-file src="src/UpdateActivity.java" target-dir="src/com/gttown/plugins" />
-        <source-file src="src/UpdateApp.java" target-dir="src/com/gttown/plugins" />
+        <source-file src="src/android/Global.java" target-dir="src/com/gttown/plugins" />
+        <source-file src="src/android/UpdateActivity.java" target-dir="src/com/gttown/plugins" />
+        <source-file src="src/android/UpdateApp.java" target-dir="src/com/gttown/plugins" />
     </platform>
 </plugin>
