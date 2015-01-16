@@ -88,9 +88,9 @@ public class UpdateActivity {
 			}
 			addNotification(Global.COMPLETE, 0);
 		}finally{
-			conn.disconnect();
-			in.close();
-			out.close();
+			if(conn != null) conn.disconnect();
+			if(in != null) in.close();
+			if(out != null) out.close();
 		}
 	}
 	
